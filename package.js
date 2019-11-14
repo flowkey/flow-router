@@ -8,7 +8,8 @@ Package.describe({
 Npm.depends({
   // In order to support IE9, we had to fork pagejs and apply
   // this PR: https://github.com/visionmedia/page.js/pull/288
-  'page':'https://github.com/kadirahq/page.js/archive/34ddf45ea8e4c37269ce3df456b44fc0efc595c6.tar.gz',
+  // Flowkey forked the page.js package in order to backport a bugfix into the version used by flow-router
+  'page':'https://github.com/flowkey/page.js/archive/fad242474cac9e3821b6e706a6adfe9053bbd82f.tar.gz',
   'qs':'5.2.0'
  });
 
